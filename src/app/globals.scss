@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+h1, h2, h3, h4, p, li {
+  color: aliceblue;
+}
+
+:root {
+  --color-bg1: rgb(254, 40, 19);
+  --color-bg2: rgb(36, 1, 112);
+  --color1: 36, 1, 112;
+  --color2: 92, 2, 244;
+  --color3: 217, 13, 86;
+  --color4: 254, 40, 19;
+  --color5: 255, 213, 2;
+  --color-interactive: 143, 0, 255;
+  --circle-size: 100%;
+  --blending: hard-light;
+}

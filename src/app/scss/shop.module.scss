@@ -1,0 +1,18 @@
+.section_container {
+    padding-top: 60px;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 60px 2rem 0 2rem;
+    .filter {
+        padding: 2rem 0;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+
+    }
+    .product_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
